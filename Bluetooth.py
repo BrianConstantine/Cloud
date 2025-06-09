@@ -3,7 +3,7 @@ import time
 
 # Replace 'COM5' with your port, or '/dev/rfcomm0' for Linux
 bluetooth_port = 'COM5'
-baud_rate = 9600
+baud_rate = 115200
 
 try:
     print("Connecting to Bluetooth Weighing Scale...")
